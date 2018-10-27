@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'home' => 'books#home'
   get 'books' => 'books#index'
   get 'register' => 'users#register'
-  get 'book.jpg' => 'application#send_pic'
+  get '/assets/book.jpg' => 'application#send_pic'
 
   delete 'home/delete' => 'books#delete'
   resources :books
