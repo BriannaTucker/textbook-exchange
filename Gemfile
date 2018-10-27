@@ -58,6 +58,6 @@ gem 'jquery-rails'
 
 group :production do
   #heroku doesn't like sqlite3 so use pg instead
-  gem 'pg'
+  gem 'pg', '~> 0.18'
   gem 'rails_12factor'
 end
