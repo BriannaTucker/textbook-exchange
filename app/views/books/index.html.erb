@@ -1,8 +1,17 @@
-<h2> Books for Sale</h2>
+<% if logged_in? %>
+    <h1>Hello <%= Guser.find_by_id(session[:guser_id]).name%></h1>
+<% else  %>
+    <h1>Hello </h1>
+<% end %>
 
-<%= form_tag books_path, :method => :get do %> 
-   <%= text_field_tag :search, params[:search] %>
-   <%= submit_tag "Search" %>
+
+<h2> Here are our novels for sale</h2>
+
+
+<%= form_for "",url: books_path, role: "search", method: :get do %> 
+  <p>
+    <%= text_field_tag :search, @search_term, placeholder: "Search..." %>
+  </p>
 <% end %>
 
 
@@ -20,8 +29,8 @@
             <tr>
                 <td><%= x.title %></td>
                 <td><%= x.isbn %></td>
-                <td><%= @users.find_by_id(x.user).name unless @users.find_by_id(x.user).nil?%></td>
-                <td><%= @users.find_by_id(x.user).phone unless @users.find_by_id(x.user).nil?%></td>
+                <td><%#= @users.find_by_id(x.user).name unless @users.find_by_id(x.user).nil?%></td>
+                <td><%#= @users.find_by_id(x.user).phone unless @users.find_by_id(x.user).nil?%></td>
                 <% if logged_in? %>
                     <td><%= button_to 'Delete', x, method: :delete, data: {confirm: 'Are you sure?'} %></td>
                 <% end %>

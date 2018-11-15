@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 gem "omniauth-google-oauth2", "~> 0.2.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -35,7 +36,6 @@ gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -63,10 +63,3 @@ group :production do
   gem 'rails_12factor'
 end
 
-group :test do
-  gem 'cucumber-rails',:require=>false
-  gem 'cucumber-rails-training-wheels'# some pre-fabbed step definitions
-  gem 'database_cleaner' # to clear Cucumber's test database between runs
-  gem 'capybara' # lets Cucumber pretend to be a web browser
-  gem 'launchy' # a useful debugging aid for user stories
-end

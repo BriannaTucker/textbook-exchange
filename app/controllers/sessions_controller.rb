@@ -7,6 +7,8 @@ class SessionsController < ApplicationController
     redirect_to root_path
   end
 
+  
+  
   def destroy
     session[:guser_id] = nil
     redirect_to root_path
