@@ -5,7 +5,8 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def current_user
-    @current_user ||= Guser.find(session[:guser_id]) if session[:guser_id]
+    @current_user ||= Guser.find(session[:guser_id]) if session[:guser_id] if session[:guser_id]
+      rescue ActiveRecord::RecordNotFound
   end
   
   

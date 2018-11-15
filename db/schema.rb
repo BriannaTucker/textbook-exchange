@@ -33,10 +33,11 @@ ActiveRecord::Schema.define(version: 20181115030025) do
 
   create_table "users", force: :cascade do |t|
     t.text     "name"
-    t.string   "password_digest"
+    t.string   "password"
+    t.string   "password_hash"
     t.text     "phone"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
 end

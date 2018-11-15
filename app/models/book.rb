@@ -1,9 +1,9 @@
 class Book < ActiveRecord::Base 
-    belongs_to :user
+    #belongs_to :guser
 
     validates :title,  presence: true
     validates :isbn,  presence: true
-    validates_presence_of :user
+    #validates_presence_of :guser
     
     def self.search(terms)
         if terms
