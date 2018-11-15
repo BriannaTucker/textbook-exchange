@@ -1,15 +1,24 @@
 
 <% if logged_in? %>
+<<<<<<< HEAD
     <h1>Hello <%= Guser.find_by_id(session[:guser_id]).name%></h1>
 <% else  %>
     <h1>Welcome </h1>
     <h1>Please log in</h1>
 
 <title>Google Auth Example App</title>
+=======
+    <h1> Hello <%= current_user.name %></h1>
+<% else %>
+    <h1>Welcome. Please log in</h1>
+
+    <title>Google Auth Example App</title>
+>>>>>>> 8b907b49f837310cc1cef0a98b3c9836a03e9d5d
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
 
+<<<<<<< HEAD
 <% if current_user %>
         Signed in as <strong><%= current_user.name %></strong>!
         <%= link_to "Sign out", signout_path, id: "sign_out" %>
@@ -20,3 +29,12 @@
 <% end %>
 
 
+=======
+    <% if current_user %>
+      Signed in as <strong><%= current_user.name %></strong>!
+      <%= link_to "Sign out", signout_path, id: "sign_out" %>
+    <% else %>
+        <%= link_to "Sign in with Google", "/auth/google_oauth2", id: "sign_in" %>
+    <% end %>
+<% end %>
+>>>>>>> 8b907b49f837310cc1cef0a98b3c9836a03e9d5d
