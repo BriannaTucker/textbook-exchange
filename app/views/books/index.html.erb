@@ -28,12 +28,7 @@
             <tr>
                 <td><%= x.title %></td>
                 <td><%= x.isbn %></td>
-<<<<<<< HEAD
-                <td><%#= @users.find_by_id(x.user).name unless @users.find_by_id(x.user).nil?%></td>
-                <td><%#= @users.find_by_id(x.user).phone unless @users.find_by_id(x.user).nil?%></td>
-=======
                 <td><%= @users.find_by_id(x.user).name unless @users.find_by_id(x.user).nil?%></td>
->>>>>>> 8b907b49f837310cc1cef0a98b3c9836a03e9d5d
                 <% if logged_in? %>
                     <% if current_user.id == x.user_id %>
                         <td><%= button_to 'Delete', x, method: :delete, data: {confirm: 'Are you sure?'} %></td>

@@ -32,22 +32,11 @@ ActiveRecord::Schema.define(version: 20181115030025) do
   end
 
   create_table "users", force: :cascade do |t|
-<<<<<<< HEAD
     t.text     "name"
-    t.string   "password"
-    t.string   "password_hash"
+    t.text     "password"
     t.text     "phone"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
-=======
-    t.string   "provider"
-    t.string   "uid"
-    t.string   "name"
-    t.string   "oauth_token"
-    t.datetime "oauth_expires_at"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
->>>>>>> 8b907b49f837310cc1cef0a98b3c9836a03e9d5d
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

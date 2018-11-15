@@ -1,12 +1,6 @@
 source 'https://rubygems.org'
 
-<<<<<<< HEAD
-
 gem "omniauth-google-oauth2", "~> 0.2.1"
-
-=======
-gem "omniauth-google-oauth2", "~> 0.2.1"
->>>>>>> 8b907b49f837310cc1cef0a98b3c9836a03e9d5d
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails',  '~> 4.2.10'
 # Use SCSS for stylesheets
