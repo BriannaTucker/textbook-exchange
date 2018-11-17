@@ -1,5 +1,5 @@
 class Guser < ActiveRecord::Base
-  #has_many :book
+  has_many :book
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_initialize.tap do |guser|
     guser.provider = auth.provider

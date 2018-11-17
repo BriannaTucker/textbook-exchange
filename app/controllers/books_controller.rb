@@ -34,8 +34,8 @@ class BooksController < ApplicationController
     end
 
     def create 
-        @books = Book.new(m_params)
-        @books.user = current_user
+        @books = current_user.Book.new(m_params)
+        #@books.user = current_user
         if @books.save 
             redirect_to '/index'
         else 
