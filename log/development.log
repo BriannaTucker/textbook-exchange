@@ -22605,3 +22605,489 @@ Processing by BooksController#index as HTML
   [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
   Rendered books/index.html.erb within layouts/application (16.2ms)
 Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/index" for 129.81.85.155 at 2018-12-06 17:08:01 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"  ORDER BY "books"."id" DESC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (53.7ms)
+Completed 200 OK in 408ms (Views: 374.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/popper.self-70e1b2b78096eb80eb35ebac513e7a8007033ee3e881919cfdca4ece7779cffd.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-d7eadb98f0cefa9b710993ef65565cffbac586b3b60f52f92288e5b0a3315d9b.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/util.self-32c933709f03802cab6990dadb15257dcca78c60790311303e1f69319bb5ec09.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-9c4010d9389b7b27e3247fcbb0cc4425f15d7df2d0d3464b9c3a9022632f1dc8.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-f40766e711b829f346a1d3f6ca132348a77eef7cdfd28732ba8afcf2c996dc89.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-6174a81cd2fbcf8bc9949957661638e9716cb0390e0fcf29fafcdc0f2351c58f.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-b2c5fc72d4e22d1516e9713d3ee1ffa6f92ed11722175e2a9b88c3acbe0bbc09.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-3d5b251608f27dbdae33a816e4736ae6e8a8e1729af1fc0c10eb234bf0f494c5.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-7abc7d81497e5228d193f1151e74cd9f683732d7ab3e9654f714a4d75fbd41c0.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-5e0c9bfb00dc1db87237215c889765533d8b0744d96538915cff2ac0e29a3825.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-684b442295b055f9cdba73cb596ffdb733024661042cfaee5637c28350efdd28.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-711cfe854709180e4c826346dd982c6df3eabc0eab949d2a1560201a139dccfa.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-f8f47356299f63d5a6828b6954f5e92bf82d85370f16410b5ae89d3e1effdd96.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ee94f2a468921cda9d34eea64c66c65ff56b8b2d9ed6cf1c833ef4c3f0d7f05a.css?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 129.81.85.155 at 2018-12-06 17:08:02 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/new" for 129.81.85.155 at 2018-12-06 17:08:04 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (34.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 128ms (Views: 126.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/books" for 129.81.85.155 at 2018-12-06 17:08:20 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uR4AQ6HWsBW0fU7kumVNUcCaIx+UtWzeRYj0bBBl2Y2pj0aMzlsEUhNgshuF6dywt/A2rOtZB/0CXvR6jybN8A==", "book"=>{"title"=>"dillydilly", "isbn"=>"1010101010101", "price"=>"45", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fcdc0a9e7d8 @tempfile=#<Tempfile:/tmp/RackMultipart20181206-37739-lg4gf6.jpg>, @original_filename="john.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[image]\"; filename=\"john.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Add posting"}
+Command :: file -b --mime '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-37739-105kd45.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-37739-f567i9.jpg[0]' 2>/dev/null
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::CommandNotFoundError (Could not run the `identify` command. Please install ImageMagick.):
+  app/controllers/books_controller.rb:37:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.9ms)
+
+
+Started GET "/" for 129.81.85.155 at 2018-12-06 17:09:37 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered books/home.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 368ms (Views: 341.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/index" for 129.81.85.155 at 2018-12-06 17:09:39 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"  ORDER BY "books"."id" DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered books/index.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 127ms (Views: 124.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/new" for 129.81.85.155 at 2018-12-06 17:09:41 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (26.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 134ms (Views: 132.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/books" for 129.81.85.155 at 2018-12-06 17:09:50 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sHXogk4o0uXDVvXP0nilsE8EGNp/2YYlW8Hd2M7lh1Gg5K5NIaVmomRLCTDt9DRROG4NaQA17QYcF93OUaaTLA==", "book"=>{"title"=>"Drugs are Bad", "isbn"=>"1010101010101", "price"=>"12", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fdb06266ae0 @tempfile=#<Tempfile:/tmp/RackMultipart20181206-38652-81ls2f.jpg>, @original_filename="john.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[image]\"; filename=\"john.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Add posting"}
+Command :: PATH=/opt/ImageMagick/bin:$PATH; file -b --mime '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-38652-1c20ew8.jpg'
+Command :: PATH=/opt/ImageMagick/bin:$PATH; identify -format '%wx%h,%[exif:orientation]' '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-38652-19o3gjg.jpg[0]' 2>/dev/null
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::CommandNotFoundError (Could not run the `identify` command. Please install ImageMagick.):
+  app/controllers/books_controller.rb:37:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.2ms)
+
+
+Started GET "/new" for 129.81.85.155 at 2018-12-06 17:11:30 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (24.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 448ms (Views: 420.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-ee94f2a468921cda9d34eea64c66c65ff56b8b2d9ed6cf1c833ef4c3f0d7f05a.css?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-d7eadb98f0cefa9b710993ef65565cffbac586b3b60f52f92288e5b0a3315d9b.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/popper.self-70e1b2b78096eb80eb35ebac513e7a8007033ee3e881919cfdca4ece7779cffd.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/util.self-32c933709f03802cab6990dadb15257dcca78c60790311303e1f69319bb5ec09.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-9c4010d9389b7b27e3247fcbb0cc4425f15d7df2d0d3464b9c3a9022632f1dc8.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-f40766e711b829f346a1d3f6ca132348a77eef7cdfd28732ba8afcf2c996dc89.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-6174a81cd2fbcf8bc9949957661638e9716cb0390e0fcf29fafcdc0f2351c58f.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-b2c5fc72d4e22d1516e9713d3ee1ffa6f92ed11722175e2a9b88c3acbe0bbc09.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-7abc7d81497e5228d193f1151e74cd9f683732d7ab3e9654f714a4d75fbd41c0.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-3d5b251608f27dbdae33a816e4736ae6e8a8e1729af1fc0c10eb234bf0f494c5.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-711cfe854709180e4c826346dd982c6df3eabc0eab949d2a1560201a139dccfa.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-5e0c9bfb00dc1db87237215c889765533d8b0744d96538915cff2ac0e29a3825.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-684b442295b055f9cdba73cb596ffdb733024661042cfaee5637c28350efdd28.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-f8f47356299f63d5a6828b6954f5e92bf82d85370f16410b5ae89d3e1effdd96.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 129.81.85.155 at 2018-12-06 17:11:31 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/books" for 129.81.85.155 at 2018-12-06 17:11:41 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fJmF2hizDpLgKKhiN9tDALpwqgWfq1o4kuvYqi1fEi5sCMMVdz661Uc1VJ0IV9LhzRq/tuBHMRvVPdi8shwGUw==", "book"=>{"title"=>"shut up", "isbn"=>"1010101010101", "price"=>"34", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f969d18eaa8 @tempfile=#<Tempfile:/tmp/RackMultipart20181206-39535-mcd97w.jpg>, @original_filename="john.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[image]\"; filename=\"john.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Add posting"}
+Command :: PATH=/opt/ImageMagick/bin:$PATH; file -b --mime '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-39535-omideo.jpg'
+Command :: PATH=/opt/ImageMagick/bin:$PATH; identify -format '%wx%h,%[exif:orientation]' '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-39535-972kdd.jpg[0]' 2>/dev/null
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::CommandNotFoundError (Could not run the `identify` command. Please install ImageMagick.):
+  app/controllers/books_controller.rb:37:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.7ms)
+
+
+Started GET "/" for 129.81.85.155 at 2018-12-06 17:13:33 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered books/home.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 372ms (Views: 345.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/new" for 129.81.85.155 at 2018-12-06 17:13:35 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (24.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 119ms (Views: 110.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/index" for 129.81.85.155 at 2018-12-06 17:13:36 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books"  ORDER BY "books"."id" DESC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (74.7ms)
+Completed 200 OK in 208ms (Views: 204.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/new" for 129.81.85.155 at 2018-12-06 17:13:37 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/books" for 129.81.85.155 at 2018-12-06 17:13:46 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AP5Zggpev5KU2II6rYDSbYRhhgUJyF5A2fq6yqrBEo4Qbx9NZdML1TPFfsWSDEOM8wuTtnYkNWOeLLrcNYIG8w==", "book"=>{"title"=>"dillydilly", "isbn"=>"1010101010101", "price"=>"67", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fc76abe9ef0 @tempfile=#<Tempfile:/tmp/RackMultipart20181206-40440-nci33u.jpg>, @original_filename="john.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[image]\"; filename=\"john.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Add posting"}
+Command :: PATH=/opt/ImageMagick/bin:$PATH; file -b --mime '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-40440-tulzn6.jpg'
+Command :: PATH=/opt/ImageMagick/bin:$PATH; identify -format '%wx%h,%[exif:orientation]' '/tmp/527bd5b5d689e2c32ae974c6229ff78520181206-40440-om9vo3.jpg[0]' 2>/dev/null
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::CommandNotFoundError (Could not run the `identify` command. Please install ImageMagick.):
+  app/controllers/books_controller.rb:37:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/" for 129.81.85.155 at 2018-12-06 17:14:36 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered books/home.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 483ms (Views: 452.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/new" for 129.81.85.155 at 2018-12-06 17:14:41 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (23.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 117ms (Views: 108.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/books" for 129.81.85.155 at 2018-12-06 17:14:51 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u7BYzb5n7+sbZwxMghAj97NA7J0ufC9ElH1FztchduirIR4C0epbrLx68LO9nLIWxCr5LlGQRGfTq0XYSGJilQ==", "book"=>{"title"=>"Stop drop and roll", "isbn"=>"1010101010101", "price"=>"45", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000052221d0 @tempfile=#<Tempfile:/tmp/RackMultipart20181206-41387-1uoexpv.jpg>, @original_filename="john.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[image]\"; filename=\"john.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Add posting"}
+Unpermitted parameter: image
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "books" ("title", "isbn", "price", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Stop drop and roll"], ["isbn", "1010101010101"], ["price", "45"], ["user_id", 1], ["created_at", "2018-12-06 17:14:51.176893"], ["updated_at", "2018-12-06 17:14:51.176893"]]
+  [1m[35m (7.7ms)[0m  commit transaction
+Redirected to https://textbook-exchange-todorovic.c9users.io/index
+Completed 302 Found in 36ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/index" for 129.81.85.155 at 2018-12-06 17:14:51 +0000
+Cannot render console from 129.81.85.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"  ORDER BY "books"."id" DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 128ms (Views: 125.7ms | ActiveRecord: 1.5ms)
