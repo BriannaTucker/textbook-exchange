@@ -14,7 +14,7 @@
     </div>
   <% end %>
 
-<%= form_for @books do |bt| %>
+<%= form_for @books, html: {multipart: true} do |bt| %>
    <%= bt.label :title, "Title: " %>
    <%= bt.text_field :title, placeholder: "Great Expectations", required: true %>
    
