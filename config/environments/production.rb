@@ -80,4 +80,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   #Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
   #Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
+  
 end
